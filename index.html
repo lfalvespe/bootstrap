@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
     
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
 </head>
 <body style="background: rgba(248, 247, 236, 0.87)">
@@ -62,19 +62,14 @@
 
 
     <!--INICIO-->
-
-    
-    <div class="">
       
       
-        
-     
     <div class="col-9 display-4 border border-2 border-warning  mt-4 mx-auto p-2 text-center  rounded">
       <img src="bootstrap.png" class="img col-2 col-xl-1 me-3" alt="">Bootstrap
     </div>
       
 
-    </div>
+   
 
       <p class="col-9 mx-auto display-7 text-center p-2 mt-3 rounded">
         Página criada para ilustrar o resultado dos estilos criados com o Framework Bootstrap para os principais componentes do HTML. Ganhe tempo, produtividade e crie sites responsivos com muito mais facilidade.
@@ -276,7 +271,7 @@
 
 
 
-    <h1 class="display-6 mt-5 text-center bg-secondary text-light">Alerts em Bootstrap</h1>
+  <h1 class="display-6 mt-5 text-center bg-secondary text-light">Alerts em Bootstrap</h1>
     
     <div class="alert alert-info alert-dismissible fade show text-center mt-4" role="alert">
        Dúvidas? Visite <a href="#" class="alert-link">lfalvespe</a> para mais informações.
@@ -291,72 +286,60 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
+    <!--Cards-->
     <h1 class="display-6 mt-5 bg-secondary text-center text-light">Cards em Bootstrap</h1>
 
-    <div class="container mt-4 mx-auto">
-       
-
-        <div class="row mt-4 g-2">
-
-            <div class="col-3">
-                <div class="card bg-secondary" style="width: 18rem;">
-                    <img src="1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Calculadora</h5>
-                      <p class="card-text">Projeto de calculadora responsiva em Javascript</p>
-                      <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
+    <div class="container mt-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 bg-info shadow">
+            <img src="calc.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Calculadora</h5>
+              <p class="card-text">Projeto de calculadora em Javascript.</p>
             </div>
-
-            <div class="col-3">
-
-                <div class="card bg-info" style="width: 18rem;">
-                    <img src="log-resp.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Tela login</h5>
-                      <p class="card-text">Projeto de tela de login responsiva HTML e CSS.</p>
-                      <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-3">
-
-                <div class="card bg" style="width: 18rem;">
-                    <img src="todo.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">To do list</h5>
-                      <p class="card-text">Projeto de lista de tarefas em Javascript.</p>
-                      <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-3">
-
-                <div class="card bg-warning" style="width: 18rem;">
-                    <img src="telalogin.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Projeto de login responsivo em HTML, CSS e Javascript</p>
-                      <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-
-            </div>
-
+          </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="log-resp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tela de login</h5>
+              <p class="card-text">Projeto de tela de login responsiva em HTML e CSS.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-warning shadow">
+            <img src="telalogin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tela de login</h5>
+              <p class="card-text">Projeto de tela de login responsiva em HTM, CSS e Javascript.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-dark text-light shadow">
+            <img src="todo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">To do list</h5>
+              <p class="card-text">Projeto de lista de tarefas em Javascript.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!--Linha 2-->
 
-    </div>   
+
+
+
+    
 
     <!--Modais-->
 
     <h1 class="display-6 mt-5 mb-4 text-center bg-secondary text-light">Modal em Bootstrap</h1>
+
 
 
     <div class="container text-center">
@@ -492,9 +475,6 @@
         </div>
       </nav>
     </div>
-
-
-
 
 
     <!-- JavaScript Bundle with Popper -->
